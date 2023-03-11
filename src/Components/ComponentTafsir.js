@@ -16,7 +16,7 @@ const ViewTafsir = ({ suratId, ayatId }) => {
   }, []);
 
   if (!tafsir) {
-    return <div>Afwan, lagi Loading...</div>;
+    return <div>Afwan, lagi Loading... IG: marrdianto</div>;
   }
 
   return (

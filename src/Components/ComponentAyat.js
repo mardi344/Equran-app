@@ -17,6 +17,10 @@ const Viewayat = ({ suratId }) => {
     isiAyat(suratId);
   }, []);
 
+  if (!ayat) {
+    return <div>Afwan, lagi Loading... IG: marrdianto</div>;
+  }
+
   return (
     <div className="ayat">
       <header>

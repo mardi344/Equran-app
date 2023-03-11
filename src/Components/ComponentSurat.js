@@ -24,7 +24,9 @@ const Pagesurat = () => {
     });
   };
 
-  console.log(surat);
+  if (!surat) {
+    return <div>Afwan, lagi Loading... IG: marrdianto</div>;
+  }
 
   return (
     <div className="surat">
