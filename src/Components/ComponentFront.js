@@ -10,7 +10,8 @@ const First = () => {
         <p>
           AL-Quran <br />{" "}
           <span>
-            sumber dari Aplikasi <br /> quran kementrian Agama RI
+            sumber dari
+            <br /> <a href="https://equran.id/apidev">API Quran kementrian Agama RI</a>
           </span>
         </p>
       </header>

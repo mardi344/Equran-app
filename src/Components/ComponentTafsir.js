@@ -28,7 +28,9 @@ const ViewTafsir = ({ suratId, ayatId }) => {
         <img src={`${process.env.PUBLIC_URL}/logosimbol.png`} alt="Logo" />
       </header>
       <p>{tafsir[ayatId - 1].teks}</p>
-      <footer>sumber app Quran kementrian Agama R.I.</footer>
+      <footer>
+        <a href="https://equran.id/apidev">Sumber Api Quran kemenag</a>
+      </footer>
     </div>
   );
 };
